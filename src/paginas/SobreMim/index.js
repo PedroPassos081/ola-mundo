@@ -2,7 +2,7 @@
 function SobreMin() {
 
     return (
-        <h1>Sobre mim...</h1>
+      <h1>Sobre mim</h1>
     )
 }
 
