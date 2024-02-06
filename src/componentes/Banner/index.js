@@ -12,7 +12,7 @@ function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                    Boas vindas! Eu sou Pedro Passos, estudante de análise e desenvolvimento de sistemas. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
                 </p>
             </div>
 
