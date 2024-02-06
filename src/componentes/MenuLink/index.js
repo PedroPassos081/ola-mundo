@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom'
 import styles from './MenuLink.module.css'
 
-function MenuLink({chieldren, to}) {
+function MenuLink({children, to}) {
     const localizacao = useLocation();
 
     return (
@@ -9,7 +9,7 @@ function MenuLink({chieldren, to}) {
                 ${ styles.link }
                 ${ localizacao.pathname === to ? styles.linkDestacado : ""}
             `} to={to}>
-                {chieldren}
+                {children}
         </Link>
     )
 }
