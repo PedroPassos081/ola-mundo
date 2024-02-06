@@ -1,7 +1,7 @@
 import styles from './Post.module.css'
 
 
-function Post({ post }) {
+function PostCard({ post }) {
     return (
         <div className={styles.post}>
             <img
@@ -18,5 +18,5 @@ function Post({ post }) {
 }
 
 
-export default Post
+export default PostCard
 
