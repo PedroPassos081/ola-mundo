@@ -7,7 +7,7 @@ function  Rodape() {
         <footer className={styles.rodape}>
             <MarcaRegistrada />
 
-            Desenvolvido por mim e Alura.
+            Desenvolvido por mim.
         </footer>
     )
 
