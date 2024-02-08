@@ -2,16 +2,16 @@ import styles from './PostModelo.module.css'
 
 function PostModelo({ fotoCapa, titulo, children }) {
     return (
-        <article className={styles.PostModeloContainer}>
+        <article className={styles.postModeloContainer}>
             <div 
-                 className={styles.FotoCapa} 
+                 className={styles.fotoCapa} 
                  style={{backgroundImage: `url(${fotoCapa})`}} > 
             </div> 
             
             <h2 className={styles.titulo}>
                 {titulo}
             </h2>
-            <div className={styles.PostConteudoContainer}>
+            <div className={styles.postConteudoContainer}>
                 {children}
             </div>
     </article>
