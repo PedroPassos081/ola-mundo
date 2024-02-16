@@ -28,7 +28,7 @@ function Banner() {
                 <img
                     className={styles.minhaFoto}
                     src={minhaFoto}
-                    alt="Foto do Antônio Evaldo sorrindo"
+                    alt="Foto Minha sorrindo"
                 />
             </div>
         </div>
